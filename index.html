@@ -40,9 +40,9 @@
           <div class="flex md:order-2">
             <button
               type="button"
-              class="text-lg text-white btn btn-outline btn-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-[#4506CB] dark:hover:bg-[#4506CB] dark:focus:ring-blue-800"
+              class="text-white btn btn-outline btn-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-[#4506CB] dark:hover:bg-[#4506CB] dark:focus:ring-blue-800"
             >
-              <span class="">Register</span>
+              <span class="text-lg normal-case">Register</span>
             </button>
             <button
               data-collapse-toggle="navbar-sticky"
@@ -76,7 +76,7 @@
             >
               <li>
                 <a
-                  href="#"
+                  href="index.html"
                   class="block py-2 pr-4 pl-3 text-lg text-white bg-[#4506CB] rounded md:bg-transparent md:text-[#4506CB] md:p-0 dark:text-white"
                   aria-current="page"
                   >Home</a
@@ -119,46 +119,128 @@
 
     <!--============ Banner area starts  ============-->
 
-    <div class="carousel max-w-[76%] max-h-[650px] mx-auto my-24">
-      <div id="slide1" class="carousel-item relative w-full">
-        <img src="img/cover/cover-1.png" class="w-full opacity-95" />
+    <div
+      class="carousel w-full h-full lg:max-w-[76%] lg:max-h-[650px] sm:w-[90%] mx-auto my-24 rounded-md"
+    >
+      <!-- slider 1  -->
+      <div id="slide1" class="carousel-item relative w-full bg-zinc-800">
+        <img
+          src="img/cover/cover-1.png"
+          class="w-full absolute mix-blend-overlay"
+        />
         <div
           class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2"
         >
-          <a href="#slide4" class="btn btn-circle">❮</a>
-          <div class="px-40 flex flex-col justify-center items-center">
-            <h1 class="text-7xl text-center font-bold text-white tracking-wide">
-              Get Started Digital Learning
+          <a
+            href="#slide3"
+            class="btn btn-circle bg-transparent text-white border-transparent text-sm md:text-xl"
+            >❮</a
+          >
+          <div
+            class="xl:px-36 lg:px-24 md:px-5 flex flex-col justify-center items-center"
+          >
+            <h1
+              class="text-xl xl:text-6xl lg:text-5xl md:text-4xl text-center font-bold text-white tracking-wide uppercase"
+            >
+              Take the first step to learn with us !
             </h1>
-            <p class="text-center text-white text-xl tracking-wide mt-5">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+            <p
+              class="text-center text-white text-xs lg:text-xl md:text-base tracking-wide mt-1 md:mt-2 xl:mt-5 lg:mb-5"
+            >
+              You can take first step to learn and build your career with us.
+              Choose a best course ans start learning.
             </p>
             <button
-              class="btn btn-active btn-primary text-base font-bold w-40 h-14 mx-auto my-5"
+              class="btn btn-active btn-primary text-xs lg:text-base md:text-xs tracking-wide font-bold w-32 h-6 lg:w-40 lg:h-14 md:w-36 md:h-6 mx-auto my-5 md:my-2"
             >
               <a href="#">GET STARTED</a>
             </button>
           </div>
-          <a href="#slide2" class="btn btn-circle">❯</a>
+          <a
+            href="#slide2"
+            class="btn btn-circle bg-transparent text-white border-transparent text-sm md:text-xl"
+            >❯</a
+          >
         </div>
       </div>
-      <div id="slide2" class="carousel-item relative w-full">
-        <img src="img/cover/cover-2.jpg" class="w-full" />
+      <div id="slide2" class="carousel-item relative w-full bg-zinc-800">
+        <img
+          src="img/cover/cover-2.jpg"
+          class="w-full absolute mix-blend-overlay"
+        />
         <div
-          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2"
         >
-          <a href="#slide1" class="btn btn-circle">❮</a>
-          <a href="#slide3" class="btn btn-circle">❯</a>
+          <a
+            href="#slide1"
+            class="btn btn-circle bg-transparent text-white border-transparent text-sm md:text-xl"
+            >❮</a
+          >
+          <div
+            class="xl:px-36 lg:px-24 md:px-5 flex flex-col justify-center items-center"
+          >
+            <h1
+              class="text-xl xl:text-6xl lg:text-5xl md:text-4xl text-center font-bold text-white tracking-wide uppercase"
+            >
+              Become a successful person !
+            </h1>
+            <p
+              class="text-center text-white text-xs lg:text-xl md:text-base tracking-wide mt-1 md:mt-2 xl:mt-5 lg:mb-5"
+            >
+              Successful people typically aren't know-it-alls. They keep an open
+              mind. They try to learn from everyone and every situation they
+              come across
+            </p>
+            <button
+              class="btn btn-active btn-primary text-xs lg:text-base md:text-xs tracking-wide font-bold w-32 h-6 lg:w-40 lg:h-14 md:w-36 md:h-6 mx-auto my-5 md:my-2"
+            >
+              <a href="#">GET STARTED</a>
+            </button>
+          </div>
+          <a
+            href="#slide3"
+            class="btn btn-circle bg-transparent text-white border-transparent text-sm md:text-xl"
+            >❯</a
+          >
         </div>
       </div>
+
       <div id="slide3" class="carousel-item relative w-full">
-        <img src="img/cover/cover-3.jpg" class="w-full" />
+        <img src="img/cover/cover-4.jpg" class="w-full" />
         <div
           class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
         >
-          <a href="#slide2" class="btn btn-circle">❮</a>
-          <a href="#slide1" class="btn btn-circle">❯</a>
+          <a
+            href="#slide2"
+            class="btn btn-circle bg-transparent text-white border-transparent text-sm md:text-xl absolute top-0 left-0 bottom-0 m-auto"
+            >❮</a
+          >
+          <div
+            class="xl:px-36 lg:px-24 md:px-5 flex flex-col justify-center items-center"
+          >
+            <h1
+              class="text-xl xl:text-6xl lg:text-5xl md:text-4xl text-center font-bold text-white tracking-wide uppercase"
+            >
+              Start learning from today!
+            </h1>
+            <p
+              class="text-center text-white text-xs lg:text-xl md:text-base tracking-wide mt-1 md:mt-2 xl:mt-5 lg:mb-5"
+            >
+              Learning is “a process that leads to change, which occurs as a
+              result of experience and increases the potential for improved
+              performance and future learning”
+            </p>
+            <button
+              class="btn btn-active btn-primary text-xs lg:text-base md:text-xs tracking-wide font-bold w-32 h-6 lg:w-40 lg:h-14 md:w-36 md:h-6 mx-auto my-5 md:my-2"
+            >
+              <a href="#">GET STARTED</a>
+            </button>
+          </div>
+          <a
+            href="#slide1"
+            class="btn btn-circle bg-transparent text-white border-transparent text-sm md:text-xl absolute top-0 right-0 bottom-0 m-auto"
+            >❯</a
+          >
         </div>
       </div>
     </div>
