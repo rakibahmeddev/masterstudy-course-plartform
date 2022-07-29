@@ -45,12 +45,76 @@
             </span>
           </a>
           <div class="flex md:order-2">
-            <button
-              type="button"
-              class="text-white btn btn-outline btn-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-[#4506CB] dark:hover:bg-[#4506CB] dark:focus:ring-blue-800"
-            >
-              <span class="text-lg normal-case">Register</span>
-            </button>
+          <!-- modal  -->
+          <div>
+       
+            <label for="my-modal-3" class="text-white btn btn-outline btn-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-[#4506CB] dark:hover:bg-[#4506CB] dark:focus:ring-blue-800">Register</label>
+    
+            
+            <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+            <div class="modal">
+              <div class="modal-box relative">
+                <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                <h3 class="text-2xl text-center font-bold">Register Now</h3>
+                <div>
+                  <form action="">
+                    <div class="form-control w-full">
+                      <label class="label">
+                        <span class="label-text">Full Name</span>
+                        
+                      </label>
+                      <input type="text" placeholder="Enter name" class="input input-bordered w-full" />
+                      
+                    </div>
+                    <div class="form-control w-full">
+                      <label class="label">
+                        <span class="label-text">Email</span>
+                        
+                      </label>
+                      <input type="email" placeholder="Enter email" class="input input-bordered w-full" />
+                      
+                    </div>
+                    <div class="form-control w-full">
+                      <label class="label">
+                        <span class="label-text">Phone</span>
+                        
+                      </label>
+                      <input type="text" placeholder="Phone number" class="input input-bordered w-full" />
+                      
+                    </div>
+                    <div class="form-control w-full">
+                      <label class="label">
+                        <span class="label-text">Password</span>
+                        
+                      </label>
+                      <input type="password" placeholder="Password" class="input input-bordered w-full" />
+                      
+                    </div>
+                    <div class="form-control w-full">
+                      <label class="label">
+                        <span class="label-text">Confirm Password</span>
+                        
+                      </label>
+                      <input type="password" placeholder="Confirm password" class="input input-bordered w-full" />
+                      
+                    </div>
+    
+                    <div class="my-10 flex justify-center">
+                      <button
+                        class="text-white bg-[#4506CB] hover:bg-[#3907a4] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg w-full sm:w-auto py-4 px-10 text-xl text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        0
+                      >
+                       Register
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- close modal  -->
+
+
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -105,9 +169,16 @@
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#success"
                   class="block py-2 pr-4 pl-3 text-lg text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#4506CB] md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >Success</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#faq"
+                  class="block py-2 pr-4 pl-3 text-lg text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#4506CB] md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >FAQ</a
                 >
               </li>
               <li>
